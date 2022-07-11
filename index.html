@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="index.js" charset="UTF-8" async></script>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Game of luck</h1>
+
+        <h2 class="score">score: 0 - 0</h2>
+        <h2 class = "points">points: 0 - 0</h2>
+
+        <div class="dice">
+            <p>Player 1</p>
+            <img class="dice1" src="images/dice6.png" alt="">
+        </div>
+        <div class="dice">
+            <p>Player 2</p>
+            <img class="dice2" src="images/dice6.png" alt="">
+        </div>
+        <div>
+            <button type="button" class="btn" onclick="generate_dice()">Click to Roll</button>
+            <button type="reset" class="btn" onclick="window.location.reload()">Reset</button>
+        </div>
+
+    </div>
+</body>
+<footer>
+    🎲Piyush🎲
+</footer>
+</html>
