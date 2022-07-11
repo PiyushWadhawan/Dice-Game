@@ -73,7 +73,7 @@ body
   
   }
 
-  @media screen and (max-width: 600px)
+  @media (max-width: 600px)
   {
     .container
     {
@@ -83,7 +83,7 @@ body
     .dice
     {
       display: inline-block;
-      width: 100%;
+      width: 30%
     }
     .btn
     {
