@@ -80,6 +80,11 @@ body
       width:100%;
       margin: 0;
     }
+    h1
+    {
+      width: auto;
+      height: auto;
+    }
     .dice
     {
       display: inline-block;
@@ -108,7 +113,7 @@ body
     .buttonroll
     {
       margin: auto;
-      width: 50%;
+      width: 80%;
       border: 3px solid green;
       padding: 10px;
     }
